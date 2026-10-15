@@ -24,10 +24,10 @@ lint = [
   { include-group = "pylint" }
 ]
 pre-commit = [
-  "prek==0.5.3"
+  "prek==0.5.4"
 ]
 pylint = [
-  "pylint==4.0.9"
+  "pylint==4.1.2"
 ]
 test = [
   "pytest-cov==7.1.0",
@@ -161,6 +161,7 @@ po2asciidoc = "translate.convert.po2asciidoc:main"
 po2csv = "translate.convert.po2csv:main"
 po2dtd = "translate.convert.po2dtd:main"
 po2flatxml = "translate.convert.po2flatxml:main"
+po2fluent = "translate.convert.po2fluent:main"
 po2html = "translate.convert.po2html:main"
 po2ical = "translate.convert.po2ical:main"
 po2idml = "translate.convert.po2idml:main"
